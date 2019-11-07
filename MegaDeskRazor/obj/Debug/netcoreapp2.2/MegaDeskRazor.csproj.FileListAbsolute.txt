@@ -35,3 +35,40 @@ D:\SCHOOL\Fall 2019\CIT 365\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\
 D:\SCHOOL\Fall 2019\CIT 365\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\DeskQuotes\Details.cshtml.g.cs
 D:\SCHOOL\Fall 2019\CIT 365\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\DeskQuotes\Edit.cshtml.g.cs
 D:\SCHOOL\Fall 2019\CIT 365\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\DeskQuotes\Index.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\MegaDeskRazor.deps.json
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\MegaDeskRazor.runtimeconfig.json
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\MegaDeskRazor.runtimeconfig.dev.json
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\MegaDeskRazor.dll
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\MegaDeskRazor.pdb
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\MegaDeskRazor.Views.dll
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\bin\Debug\netcoreapp2.2\MegaDeskRazor.Views.pdb
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.csprojAssemblyReference.cache
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.RazorAssemblyInfo.cache
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.RazorAssemblyInfo.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.AssemblyInfoInputs.cache
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.AssemblyInfo.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.TagHelpers.input.cache
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.TagHelpers.output.cache
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.RazorCoreGenerate.cache
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\DeskQuotes\Create.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\DeskQuotes\Delete.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\DeskQuotes\Details.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\DeskQuotes\Edit.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\DeskQuotes\Index.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.RazorTargetAssemblyInfo.cache
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.RazorTargetAssemblyInfo.cs
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.Views.pdb
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.dll
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.pdb
+C:\Users\Owner\Source\Repos\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.csproj.CopyComplete
