@@ -18,16 +18,28 @@ namespace MegaDeskRazor.Pages.DeskQuotes
         {
             _context = context;
         }
-        [BindProperty(SupportsGet = true)]
-        public string SearchString { get; set; }
-
-        public SelectList FirstName { get; set; }
 
         public IList<DeskQuote> DeskQuote { get;set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string SearchString { get; set; }
+
+        public SelectList Name { get; set; }
+
+        public string FirstName { get; set; }
+
+
+
         public async Task OnGetAsync()
         {
-            DeskQuote = await _context.DeskQuote.ToListAsync();
+            var names = from m in _context.DeskQuote
+                         select m;
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                names = names.Where(s => s.FirstName.Contains(SearchString));
+            }
+
+            DeskQuote = await names.ToListAsync();
         }
     }
 }
