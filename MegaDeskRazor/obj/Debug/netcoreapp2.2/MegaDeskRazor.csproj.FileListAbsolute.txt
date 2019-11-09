@@ -71,3 +71,4 @@ D:\SCHOOL\Fall 2019\CIT 365\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\
 D:\SCHOOL\Fall 2019\CIT 365\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.dll
 D:\SCHOOL\Fall 2019\CIT 365\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.pdb
 D:\SCHOOL\Fall 2019\CIT 365\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.csproj.CopyComplete
+D:\SCHOOL\Fall 2019\CIT 365\MegaDeskRazor\MegaDeskRazor\obj\Debug\netcoreapp2.2\MegaDeskRazor.csprojAssemblyReference.cache

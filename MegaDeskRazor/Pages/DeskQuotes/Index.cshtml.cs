@@ -35,6 +35,8 @@ namespace MegaDeskRazor.Pages.DeskQuotes
             if (!string.IsNullOrEmpty(SearchString))
             {
                 nameList = nameList.Where(s => s.FirstName.Contains(SearchString) || s.LastName.Contains(SearchString) || $"{s.FirstName} {s.LastName}" == SearchString);
+                DeskQuote = await nameList.ToListAsync();
+                return;
             }
 
             DeskQuote = await nameList.ToListAsync();

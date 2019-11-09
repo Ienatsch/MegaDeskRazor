@@ -33,6 +33,7 @@ namespace MegaDeskRazor.Pages.DeskQuotes
                 return Page();
             }
 
+            DeskQuote.QuoteDate = DateTime.Today;
             _context.DeskQuote.Add(DeskQuote);
             await _context.SaveChangesAsync();
 
