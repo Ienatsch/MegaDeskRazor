@@ -7,8 +7,13 @@
 
 <h1>Index</h1>
 <form>
-    <label for="nameSearchField">Search by Name:</label>
-    <input type="text" id="nameSearchField"/>
+    <p>
+        <label>
+            Name
+        </label>
+        <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" class="btn btn-success" />
+    </p>
 </form>
 <p>
     <a asp-page="Create">Create New</a>
@@ -18,13 +23,17 @@
         <thead>
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].QuoteDate)
+                    <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort">
+                        @Html.DisplayNameFor(model => model.DeskQuote[0].QuoteDate)
+                    </a>
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.DeskQuote[0].FirstName)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].LastName)
+                    <a asp-page="./Index" asp-route-sortOrder="@Model.NameSort">
+                        @Html.DisplayNameFor(model => model.DeskQuote[0].LastName)
+                    </a>
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.DeskQuote[0].Width)
