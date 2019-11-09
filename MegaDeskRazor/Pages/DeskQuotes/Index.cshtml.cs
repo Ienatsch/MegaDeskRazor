@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using MegaDeskRazor.Models;
+using Microsoft.AspNetCore.Mvc.Rendering; 
 
 namespace MegaDeskRazor.Pages.DeskQuotes
 {
@@ -17,6 +18,10 @@ namespace MegaDeskRazor.Pages.DeskQuotes
         {
             _context = context;
         }
+        [BindProperty(SupportsGet = true)]
+        public string SearchString { get; set; }
+
+        public SelectList FirstName { get; set; }
 
         public IList<DeskQuote> DeskQuote { get;set; }
 
