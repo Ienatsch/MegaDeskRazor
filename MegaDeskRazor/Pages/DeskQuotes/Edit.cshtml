@@ -9,83 +9,89 @@
 
 <h4>DeskQuote</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="DeskQuote.ID" />
-            <div class="form-group">
-                <label asp-for="DeskQuote.QuoteDate" class="control-label"></label>
-                <input asp-for="DeskQuote.QuoteDate" class="form-control" />
-                <span asp-validation-for="DeskQuote.QuoteDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.FirstName" class="control-label"></label>
-                <input asp-for="DeskQuote.FirstName" class="form-control" />
-                <span asp-validation-for="DeskQuote.FirstName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.LastName" class="control-label"></label>
-                <input asp-for="DeskQuote.LastName" class="form-control" />
-                <span asp-validation-for="DeskQuote.LastName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.Width" class="control-label"></label>
-                <input asp-for="DeskQuote.Width" class="form-control" />
-                <span asp-validation-for="DeskQuote.Width" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.Depth" class="control-label"></label>
-                <input asp-for="DeskQuote.Depth" class="form-control" />
-                <span asp-validation-for="DeskQuote.Depth" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.SurfaceArea" class="control-label"></label>
-                <input asp-for="DeskQuote.SurfaceArea" class="form-control" />
-                <span asp-validation-for="DeskQuote.SurfaceArea" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.SurfacePrice" class="control-label"></label>
-                <input asp-for="DeskQuote.SurfacePrice" class="form-control" />
-                <span asp-validation-for="DeskQuote.SurfacePrice" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.SurfaceMaterial" class="control-label"></label>
-                <input asp-for="DeskQuote.SurfaceMaterial" class="form-control" />
-                <span asp-validation-for="DeskQuote.SurfaceMaterial" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.NumDrawers" class="control-label"></label>
-                <input asp-for="DeskQuote.NumDrawers" class="form-control" />
-                <span asp-validation-for="DeskQuote.NumDrawers" class="text-danger"></span>
-            </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="DeskQuote.IsRushOrder" /> @Html.DisplayNameFor(model => model.DeskQuote.IsRushOrder)
-                </label>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.DeliveryTime" class="control-label"></label>
-                <input asp-for="DeskQuote.DeliveryTime" class="form-control" />
-                <span asp-validation-for="DeskQuote.DeliveryTime" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.RushOrderPrice" class="control-label"></label>
-                <input asp-for="DeskQuote.RushOrderPrice" class="form-control" />
-                <span asp-validation-for="DeskQuote.RushOrderPrice" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DeskQuote.TotalPrice" class="control-label"></label>
-                <input asp-for="DeskQuote.TotalPrice" class="form-control" />
-                <span asp-validation-for="DeskQuote.TotalPrice" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+<div class="container">
+        <form method="post">  
+            <div class="row">
+                <div class="col">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="DeskQuote.ID" />
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.QuoteDate" class="control-label"></label>
+                        <input asp-for="DeskQuote.QuoteDate" class="form-control" />
+                        <span asp-validation-for="DeskQuote.QuoteDate" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.FirstName" class="control-label"></label>
+                        <input asp-for="DeskQuote.FirstName" class="form-control" />
+                        <span asp-validation-for="DeskQuote.FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.LastName" class="control-label"></label>
+                        <input asp-for="DeskQuote.LastName" class="form-control" />
+                        <span asp-validation-for="DeskQuote.LastName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.Width" class="control-label"></label>
+                        <input asp-for="DeskQuote.Width" class="form-control" />
+                        <span asp-validation-for="DeskQuote.Width" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.Depth" class="control-label"></label>
+                        <input asp-for="DeskQuote.Depth" class="form-control" />
+                        <span asp-validation-for="DeskQuote.Depth" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.SurfaceArea" class="control-label"></label>
+                        <input asp-for="DeskQuote.SurfaceArea" class="form-control" />
+                        <span asp-validation-for="DeskQuote.SurfaceArea" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.SurfacePrice" class="control-label"></label>
+                        <input asp-for="DeskQuote.SurfacePrice" class="form-control" />
+                        <span asp-validation-for="DeskQuote.SurfacePrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.SurfaceMaterial" class="control-label"></label>
+                        <input asp-for="DeskQuote.SurfaceMaterial" class="form-control" />
+                        <span asp-validation-for="DeskQuote.SurfaceMaterial" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.NumDrawers" class="control-label"></label>
+                        <input asp-for="DeskQuote.NumDrawers" class="form-control" />
+                        <span asp-validation-for="DeskQuote.NumDrawers" class="text-danger"></span>
+                    </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="DeskQuote.IsRushOrder" /> @Html.DisplayNameFor(model => model.DeskQuote.IsRushOrder)
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.DeliveryTime" class="control-label"></label>
+                        <input asp-for="DeskQuote.DeliveryTime" class="form-control" />
+                        <span asp-validation-for="DeskQuote.DeliveryTime" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.RushOrderPrice" class="control-label"></label>
+                        <input asp-for="DeskQuote.RushOrderPrice" class="form-control" />
+                        <span asp-validation-for="DeskQuote.RushOrderPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DeskQuote.TotalPrice" class="control-label"></label>
+                        <input asp-for="DeskQuote.TotalPrice" class="form-control" />
+                        <span asp-validation-for="DeskQuote.TotalPrice" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Save" class="btn btn-primary" />
+                    </div>
+                    </div>
+                </div>
             </div>
         </form>
-    </div>
-</div>
-
 <div>
     <a asp-page="./Index">Back to List</a>
 </div>
