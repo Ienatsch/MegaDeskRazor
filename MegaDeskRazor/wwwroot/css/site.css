@@ -46,6 +46,8 @@ body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
     font-family: 'Source Code Pro', monospace;
+    margin-left:0%;
+
 }
 .footer {
   position: absolute;
