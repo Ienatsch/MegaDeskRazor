@@ -24,7 +24,8 @@ namespace MegaDeskRazor.Models
         public int SurfacePrice { get; set; }
         [Display(Name = "Surface Material")]
         public string SurfaceMaterial { get; set; }
-        [Display(Name = "Drawers")]
+        [Display(Name = "Drawers (0-7)")]
+        [Range(0, 7)]
         public int NumDrawers { get; set; }
         public bool IsRushOrder { get; set; }
         [Display(Name = "Delivery Time")]
