@@ -35,15 +35,20 @@ namespace MegaDeskRazor.Pages.DeskQuotes
             var width = int.Parse(Request.Form["width"]);
             var depth = int.Parse(Request.Form["depth"]);
             var deliveryTime = int.Parse(Request.Form["deliveryTime"]);
+            var numDrawers = int.Parse(Request.Form["numDrawers"]);
+            var surfaceMaterial = Request.Form["surfaceMaterial"];
             DeskQuote.QuoteDate = DateTime.Today;
-            DeskQuote.SurfaceMaterial = Request.Form["surfaceMaterial"];
+            DeskQuote.SurfaceMaterial = surfaceMaterial;
             DeskQuote.Width = width;
             DeskQuote.Depth = depth;
+            DeskQuote.NumDrawers = numDrawers;
             DeskQuote.DeliveryTime = deliveryTime;
             DeskQuote.SurfaceArea = width * depth;
 
             GetDeliveryPrice(deliveryTime);
-           
+            GetSurfacePrice(surfaceMaterial);
+
+            DeskQuote.TotalPrice = 200 + (numDrawers * 50) + DeskQuote.SurfacePrice + DeskQuote.RushOrderPrice;
             _context.DeskQuote.Add(DeskQuote);
             await _context.SaveChangesAsync();
 
@@ -98,6 +103,28 @@ namespace MegaDeskRazor.Pages.DeskQuotes
                     break;
                 default:
                     DeskQuote.RushOrderPrice = 0;
+                    break;
+            }
+        }
+
+        private void GetSurfacePrice(string surfaceMaterial)
+        {
+            switch (surfaceMaterial)
+            {
+                case "Oak":
+                    DeskQuote.SurfacePrice = 200;
+                    break;
+                case "Laminate":
+                    DeskQuote.SurfacePrice = 100;
+                    break;
+                case "Pine":
+                    DeskQuote.SurfacePrice = 50;
+                    break;
+                case "Rosewood":
+                    DeskQuote.SurfacePrice = 300;
+                    break;
+                default:
+                    DeskQuote.SurfacePrice = 125;
                     break;
             }
         }
