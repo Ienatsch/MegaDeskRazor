@@ -16,7 +16,9 @@ namespace MegaDeskRazor.Models
         public string FirstName { get; set; }
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
+        [Range(24, 96)]
         public int Width { get; set; }
+        [Range(12, 48)]
         public int Depth { get; set; }
         [Display(Name = "Surface Area")]
         public int SurfaceArea { get; set; }
@@ -24,7 +26,7 @@ namespace MegaDeskRazor.Models
         public int SurfacePrice { get; set; }
         [Display(Name = "Surface Material")]
         public string SurfaceMaterial { get; set; }
-        [Display(Name = "Drawers (0-7)")]
+        [Display(Name = "Drawers")]
         [Range(0, 7)]
         public int NumDrawers { get; set; }
         public bool IsRushOrder { get; set; }

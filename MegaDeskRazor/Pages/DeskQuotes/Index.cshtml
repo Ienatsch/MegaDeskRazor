@@ -4,114 +4,114 @@
 @{
     ViewData["Title"] = "Index";
 }
-
-<h1>Index</h1>
-<form>
-    <p>
-        <label>
-            Name
-        </label>
-        <input type="text" asp-for="SearchString" />
-        <input type="submit" value="Filter" class="btn btn-success" />
-    </p>
-</form>
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
-<div class="container table-conta">
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort">
-                        @Html.DisplayNameFor(model => model.DeskQuote[0].QuoteDate)
-                    </a>
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].FirstName)
-                </th>
-                <th>
-                    <a asp-page="./Index" asp-route-sortOrder="@Model.NameSort">
-                        @Html.DisplayNameFor(model => model.DeskQuote[0].LastName)
-                    </a>
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].Width)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].Depth)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].SurfaceArea)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].SurfacePrice)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].SurfaceMaterial)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].NumDrawers)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].DeliveryTime)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].RushOrderPrice)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DeskQuote[0].TotalPrice)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.DeskQuote)
-            {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.QuoteDate)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.FirstName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.LastName)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Width)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Depth)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.SurfaceArea)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.SurfacePrice)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.SurfaceMaterial)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.NumDrawers)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DeliveryTime)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.RushOrderPrice)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.TotalPrice)
-                    </td>
-                    <td>
-                        <a asp-page="./Edit" asp-route-id="@item.ID" class="btn btn-primary btn-sm btn-block">Edit</a> 
-                        <a asp-page="./Details" asp-route-id="@item.ID" class="btn btn-info btn-sm btn-block">Details</a> 
-                        <a asp-page="./Delete" asp-route-id="@item.ID" class="btn btn-warning btn-sm btn-block">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</div>
+    <div id="wrapper" style="width: 100%; margin-left: -5%">
+        <form>
+            <p>
+                <label>
+                    Name
+                </label>
+                <input type="text" asp-for="SearchString" />
+                <input type="submit" value="Filter" class="btn btn-success" />
+            </p>
+        </form>
+        <p>
+            <a asp-page="Create">Create New</a>
+        </p>
+        <div class="container table-conta">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort">
+                                @Html.DisplayNameFor(model => model.DeskQuote[0].QuoteDate)
+                            </a>
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].FirstName)
+                        </th>
+                        <th>
+                            <a asp-page="./Index" asp-route-sortOrder="@Model.NameSort">
+                                @Html.DisplayNameFor(model => model.DeskQuote[0].LastName)
+                            </a>
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].Width)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].Depth)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].SurfaceArea)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].SurfacePrice)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].SurfaceMaterial)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].NumDrawers)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].DeliveryTime)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].RushOrderPrice)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.DeskQuote[0].TotalPrice)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.DeskQuote)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.QuoteDate)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.FirstName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.LastName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Width)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Depth)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SurfaceArea)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SurfacePrice)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SurfaceMaterial)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NumDrawers)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DeliveryTime)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.RushOrderPrice)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TotalPrice)
+                            </td>
+                            <td>
+                                <a asp-page="./Edit" asp-route-id="@item.ID" class="btn btn-primary btn-sm btn-block">Edit</a>
+                                <a asp-page="./Details" asp-route-id="@item.ID" class="btn btn-info btn-sm btn-block">Details</a>
+                                <a asp-page="./Delete" asp-route-id="@item.ID" class="btn btn-warning btn-sm btn-block">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>

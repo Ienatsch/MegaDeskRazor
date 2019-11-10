@@ -12938,23 +12938,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Owner\\.nuget\\packages\\": {},
+    "C:\\Users\\diena\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\MegaDeskRazor\\MegaDeskRazor\\MegaDeskRazor.csproj",
+      "projectUniqueName": "D:\\SCHOOL\\Fall 2019\\CIT 365\\MegaDeskRazor\\MegaDeskRazor\\MegaDeskRazor.csproj",
       "projectName": "MegaDeskRazor",
-      "projectPath": "C:\\Users\\Owner\\source\\repos\\MegaDeskRazor\\MegaDeskRazor\\MegaDeskRazor.csproj",
-      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Owner\\source\\repos\\MegaDeskRazor\\MegaDeskRazor\\obj\\",
+      "projectPath": "D:\\SCHOOL\\Fall 2019\\CIT 365\\MegaDeskRazor\\MegaDeskRazor\\MegaDeskRazor.csproj",
+      "packagesPath": "C:\\Users\\diena\\.nuget\\packages\\",
+      "outputPath": "D:\\SCHOOL\\Fall 2019\\CIT 365\\MegaDeskRazor\\MegaDeskRazor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\diena\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
